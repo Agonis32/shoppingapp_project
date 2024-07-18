@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".GroceryListActivity">
+
+    <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:queryHint="Search Products"
+            android:background="@drawable/search_view_border"/>
+
+    <LinearLayout
+            android:id="@+id/buttonContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="16dp"
+            android:layout_below="@id/searchView">
+
+        <Button
+                android:id="@+id/buttonAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"/>
+
+        <Button
+                android:id="@+id/buttonDrinks"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drinks"
+                android:layout_marginStart="4dp"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"/>
+
+        <Button
+                android:id="@+id/buttonMilk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Milk"
+                android:layout_marginStart="4dp"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"/>
+
+        <Button
+                android:id="@+id/buttonChocolate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Choco"
+                android:layout_marginStart="4dp"
+                android:background="@android:color/holo_blue_dark"
+                android:textColor="@android:color/white"/>
+
+        <!--<Button
+                android:id="@+id/buttonBiscuits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biscuits"
+                android:layout_marginStart="8dp" /> -->
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:layout_below="@id/buttonContainer"
+            android:layout_above="@id/buttonShoppingCart"
+            android:background="@drawable/search_view_border"/>
+
+    <Button
+            android:id="@+id/buttonShoppingCart"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:text="Shopping Cart"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="0dp"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white" />
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">V.G Market</string>
+    <string name="shopping_cart">Shopping Cart</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+    <string name="price">Price</string>
+    <string name="image_url">Image URL</string>
+    <string name="rating">Rating</string>
+    <string name="product_id">Product ID for Deletion</string>
+    <string name="add_product">Add Product</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="view_grocery_list">View Grocery List</string>
+    <string name="Category">Product Category</string>
+    <string name="All">All</string>
+    <string name="Drinks">Drinks</string>
+    <string name="Milk">Milk</string>
+    <string name="Choco">Choco</string>
+    <string name="ShoppingCart">Shopping Cart</string>
+    <string name="increase">Increase</string>
+    <string name="decrease">Decrease</string>
+    <string name="remove">Remove</string>
+
+</resources>

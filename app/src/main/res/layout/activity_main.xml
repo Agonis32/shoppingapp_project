@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity">
+
+    <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:autofillHints=""
+            android:inputType="textCapWords"
+            tools:ignore="HardcodedText" />
+
+    <EditText
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:layout_below="@id/editTextName"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            tools:ignore="HardcodedText"
+            android:inputType="textCapSentences"
+            android:importantForAutofill="no" />
+
+    <EditText
+            android:id="@+id/editTextPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Price"
+            android:layout_below="@id/editTextDescription"
+            android:layout_marginTop="8dp"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            tools:ignore="HardcodedText"
+            android:importantForAutofill="no" />
+
+    <EditText
+            android:id="@+id/editTextImageUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Image URL"
+            android:layout_below="@id/editTextPrice"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            android:inputType="textUri"
+            tools:ignore="HardcodedText"
+            android:importantForAutofill="no" />
+
+    <EditText
+            android:id="@+id/editTextCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Category"
+            android:layout_below="@id/editTextImageUrl"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="HardcodedText"
+            android:importantForAutofill="no" />
+
+    <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Product ID for Deletion"
+            android:layout_below="@id/editTextCategory"
+            android:layout_marginTop="8dp"
+            android:inputType="number"
+            android:minHeight="48dp"
+            tools:ignore="HardcodedText"
+            android:importantForAutofill="no" />
+
+    <Button
+            android:id="@+id/buttonAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Product"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/editTextId"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText" />
+
+    <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete Product"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/buttonAdd"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText" />
+
+    <Button
+            android:id="@+id/buttonViewGroceryList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Grocery List"
+            android:background="@android:color/holo_blue_dark"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/buttonDelete"
+            android:layout_marginTop="16dp"
+            tools:ignore="HardcodedText" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="16dp">
+
+        <Button
+                android:id="@+id/buttonEnglish"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/flag_gb"
+                android:layout_marginEnd="8dp"/>
+
+        <Button
+                android:id="@+id/buttonGreek"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@drawable/flag_gr"/>
+    </LinearLayout>
+</RelativeLayout>

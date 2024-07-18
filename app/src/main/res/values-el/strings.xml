@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Β.Γ Παντοπωλείο</string>
+    <string name="shopping_cart">Καλάθι Αγορών</string>
+    <string name="add_to_cart">Προσθήκη στο Καλάθι</string>
+    <string name="name">Όνομα</string>
+    <string name="description">Περιγραφή</string>
+    <string name="price">Τιμή</string>
+    <string name="image_url">URL Εικόνας</string>
+    <string name="rating">Αξιολόγηση</string>
+    <string name="product_id">ID Προϊόντος για Διαγραφή</string>
+    <string name="add_product">Προσθήκη Προϊόντος</string>
+    <string name="delete_product">Διαγραφή Προϊόντος</string>
+    <string name="view_grocery_list">Προβολή Λίστας Αγορών</string>
+    <string name="Category" tools:ignore="ExtraTranslation">Κατηορια Προιοντος</string>
+    <string name="All">Λιστα Προιοντων</string>
+    <string name="Drinks">Αναψυκτικα</string>
+    <string name="Milk">Γαλατα</string>
+    <string name="Choco">Σοκολατες</string>
+    <string name="ShoppingCart">Καλαθι Αγορων</string>
+    <string name="increase">Αύξηση</string>
+    <string name="decrease">Μείωση</string>
+    <string name="remove">Αφαίρεση</string>
+</resources>
+
